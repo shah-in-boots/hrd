@@ -1,0 +1,29 @@
+template:
+  bootstrap: 5
+  bootswatch: flatly
+  theme: solarized-light
+
+destination: docs
+
+url: https://asshah4.github.io/coraline/
+
+home:
+  title: coraline
+  description: Mapping the Heart
+  sidebar:
+    structure: [links, license, community, citation, authors, dev]
+
+navbar:
+  structure:
+    left:  [home, reference, articles, tutorials, news]
+    right: [github]
+  components:
+    home:
+      icon: fas fa-home fa-lg
+      href: https://asshah4.github.io/
+    reference:
+      text: Reference
+      href: reference/index.html
+    github:
+      icon: fab fa-github fa-lg
+      href: https://github.com/asshah4/coraline/
