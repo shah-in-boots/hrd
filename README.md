@@ -23,5 +23,5 @@ You can install the development version of `coraline` from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("asshah4/coraline")
+#devtools::install_github("asshah4/coraline")
 ```

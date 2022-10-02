@@ -28,8 +28,8 @@ The goal of `coraline` is to ...
 
 You can install the development version of `coraline` from [GitHub](https://github.com/) with:
 
-``` r
+```{r}
 # install.packages("devtools")
-devtools::install_github("asshah4/coraline")
+#devtools::install_github("asshah4/coraline")
 ```
 
