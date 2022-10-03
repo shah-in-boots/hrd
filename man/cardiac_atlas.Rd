@@ -28,8 +28,9 @@ atrium
 }
 }
 \source{
-Created by author using the \href{https://qgis.org/en/site/}{QGIS software} from the "Atlas of Cardiac Anatomy" by
-Mori and Shivkumar (2022).
+Created by author using the \href{https://qgis.org/en/site/}{QGIS}
+software with templates created from the "Atlas of Cardiac Anatomy" by Mori
+and Shivkumar (2022).
 }
 \usage{
 cardiac_atlas

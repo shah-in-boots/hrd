@@ -28,9 +28,9 @@
 #'   * __right_atrium_rao__ = right anterior oblique view focused on the right
 #'   atrium
 #'
-#' @source Created by author using the [QGIS
-#'   software](https://qgis.org/en/site/) from the "Atlas of Cardiac Anatomy" by
-#'   Mori and Shivkumar (2022).
+#' @source Created by author using the \href{https://qgis.org/en/site/}{QGIS}
+#'   software with templates created from the "Atlas of Cardiac Anatomy" by Mori
+#'   and Shivkumar (2022).
 #'
 #' @author Anish S. Shah, MD/MS
 "cardiac_atlas"
