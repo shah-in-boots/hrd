@@ -1,12 +1,19 @@
 library(sf)
 library(tidyverse)
-library(broom)
 
-heart <- st_read("mapping/cardiac_extent.shp")
-ra <- st_read("mapping/right_atrium.shp")
-msk <- st_read("mapping/muscular_extensions.shp")
-valves <- st_read("mapping/valvular_structures.shp")
-lumens <- st_read("mapping/vessel_lumen.shp")
+extent <- st_read("mapping/right_atrium_rao/cardiac_extent.shp")
+atrium <- st_read("mapping/right_atrium_rao/chamber_space.shp")
+conduction <- st_read("mapping/right_atrium_rao/conduction_system.shp")
+muscles <- st_read("mapping/right_atrium_rao/muscular_extensions.shp")
+septum <- st_read("mapping/right_atrium_rao/septal_structures.shp")
+valves <- st_read("mapping/right_atrium_rao/valvular_structures.shp")
+vessels <- st_read("mapping/right_atrium_rao/vessel_structures.shp")
 
 
-tidy(ra, region = "NAME")
+
+ggplot() +
+	geom_sf(data = atrium) +
+	geom_sf(data = vessels) +
+	geom_sf(data = septum) +
+	geom_sf(data = muscles) +
+	theme_void()
