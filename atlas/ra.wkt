@@ -1,0 +1,15 @@
+GEOGCRS["unknown",
+	DATUM["unknown", 
+		ELLIPSOID["unknown",4.0, 
+			LENGTHUNIT["centimeter",1]]],
+	PRIMEM["Reference meridian",0,
+		ANGLEUNIT["degree",1]],
+	CS[ellipsoidal,2],
+	AXIS["longitude",east,
+		ORDER[1],
+		ANGLEUNIT["degree",1]]
+	AXIS["latitude",north,
+		ORDER[2],
+		ANGLEUNIT["degree",1]],
+	REMARK["PROJ CRS string: +proj=longlat +R=4 +no_defs +lon_0=0 +units=cm"]]
+
