@@ -1,10 +1,10 @@
 Package: coraline
-Title: What the Package Does (One Line, Title Case)
+Title: Electro-anatomical visualization of cardiac structures
 Version: 0.0.0.9000
 Authors@R: 
     person("Anish S.", "Shah", , "ashah282@uic.edu", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-9729-1558"))
-Description: What the package does (one paragraph).
+Description: Educational tools for graphical representation of cardiac structures.
 License: MIT + file LICENSE
 Suggests: 
     covr,
