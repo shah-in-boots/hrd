@@ -8,9 +8,11 @@ cardiac_atlas <- list(
 		projections = sf::st_read("atlas/right_atrium_rao/projections.shp"),
 		septum = sf::st_read("atlas/right_atrium_rao/septum.shp"),
 		valves = sf::st_read("atlas/right_atrium_rao/valves.shp"),
-		vessels = sf::st_read("atlas/right_atrium_rao/vessels.shp")
+		vessels = sf::st_read("atlas/right_atrium_rao/vessels.shp"),
+		reference = sf::st_read("atlas/right_atrium_rao/reference.shp")
 	)
 )
 
 
 usethis::use_data(cardiac_atlas, overwrite = TRUE)
+
