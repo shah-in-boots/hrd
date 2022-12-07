@@ -9,7 +9,8 @@ cardiac_atlas <- list(
 		septum = sf::st_read("atlas/right_atrium_rao/septum.shp"),
 		valves = sf::st_read("atlas/right_atrium_rao/valves.shp"),
 		vessels = sf::st_read("atlas/right_atrium_rao/vessels.shp"),
-		reference = sf::st_read("atlas/right_atrium_rao/reference.shp")
+		reference = sf::st_read("atlas/right_atrium_rao/reference.shp"),
+		pathways = sf::st_read("atlas/right_atrium_rao/pathways.shp")
 	)
 )
 
