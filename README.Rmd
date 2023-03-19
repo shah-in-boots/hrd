@@ -13,23 +13,23 @@ knitr::opts_chunk$set(
 )
 ```
 
-# coraline
+# hrd
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![CRAN status](https://www.r-pkg.org/badges/version/coraline)](https://CRAN.R-project.org/package=coraline)
-[![R-CMD-check](https://github.com/asshah4/coraline/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/asshah4/coraline/actions/workflows/R-CMD-check.yaml)
-[![Codecov test coverage](https://codecov.io/gh/asshah4/coraline/branch/main/graph/badge.svg)](https://app.codecov.io/gh/asshah4/coraline?branch=main)
+[![CRAN status](https://www.r-pkg.org/badges/version/hrd)](https://CRAN.R-project.org/package=hrd)
+[![R-CMD-check](https://github.com/asshah4/hrd/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/asshah4/hrd/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/asshah4/hrd/branch/main/graph/badge.svg)](https://app.codecov.io/gh/asshah4/hrd?branch=main)
 <!-- badges: end -->
 
-The goal of `coraline` is to ...
+The goal of `hrd` is to ...
 
 ## Installation
 
-You can install the development version of `coraline` from [GitHub](https://github.com/) with:
+You can install the development version of `hrd` from [GitHub](https://github.com/) with:
 
 ```{r}
 # install.packages("devtools")
-#devtools::install_github("asshah4/coraline")
+#devtools::install_github("asshah4/hrd")
 ```
 
