@@ -5,7 +5,7 @@ template:
 
 destination: docs
 
-url: https://asshah4.github.io/hrd/
+url: https://shah-in-boots.github.io/hrd/
 
 home:
   title: hrd
@@ -20,10 +20,10 @@ navbar:
   components:
     home:
       icon: fas fa-home fa-lg
-      href: https://asshah4.github.io/
+      href: https://shah-in-boots.github.io/
     reference:
       text: Reference
       href: reference/index.html
     github:
       icon: fab fa-github fa-lg
-      href: https://github.com/asshah4/hrd/
+      href: https://github.com/shah-in-boots/hrd/
